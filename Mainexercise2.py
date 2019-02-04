@@ -1,7 +1,8 @@
 from exercise2 import Park
 
-print ("Bienvenido!!")
-print ("Ingresa la edad del visitante: ")
-years = int(input())
-visitor = Park(years)
-visitor.show_data()
+print("Bienvenido!!")
+print ("Ingresa el costo del boleto: ")
+ticket = int(input())
+nehemias = Park(ticket)
+nehemias.show_data()
+
